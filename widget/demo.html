@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NovuLabs Chat Widget — Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; padding: 60px 40px; background: #f1f5f9; color: #1e293b; }
+    .card { max-width: 640px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+    h1 { font-size: 20px; margin-top: 0; }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>NovuLabs website — chat widget demo</h1>
+    <p>This page stands in for your real website. The chat widget is loaded by the
+      <code>&lt;script&gt;</code> tag at the bottom of this file — nothing else on the page
+      knows it exists. Click the round button in the bottom-left corner to try it.</p>
+    <p>Backend target: <code>http://localhost:8000</code> (adjust <code>data-api-url</code> below to point
+      at your real deployed backend when you go live).</p>
+  </div>
+
+  <script
+    src="./novulabs-chat-widget.js"
+    data-api-url="http://localhost:8000"
+    data-position="left"
+    data-title="Chat with NovuLabs"
+    data-primary-color="#0f766e"
+    data-greeting="Hi! Ask me anything about NovuLabs' services, pricing, or how we work."
+  ></script>
+</body>
+</html>
