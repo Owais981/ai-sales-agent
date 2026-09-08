@@ -7,16 +7,16 @@ export const COLORS = {
   emerald: '#10b981',
   amber: '#f59e0b',
   rose: '#f43f5e',
-  indigo: '#6366f1',
+  indigo: '#4f46e5',
 } as const
 
 export type AccentColor = keyof typeof COLORS
 
 export const SURFACE = {
-  base: '#0a0a12',
-  sidebar: '#0d0d1a',
-  panel: '#13131f',
-  panel2: '#1a1a2e',
+  base: '#0f172a',
+  sidebar: '#0b1220',
+  panel: '#1e293b',
+  panel2: '#263449',
   border: 'rgba(255,255,255,0.07)',
 } as const
 

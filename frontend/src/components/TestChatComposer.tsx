@@ -48,7 +48,7 @@ export function TestChatComposer({ onSend }: { onSend: (content: string) => Prom
           onChange={(event) => setContent(event.target.value)}
           placeholder="Type a message as if you were the customer…"
           className="flex-1 resize-none rounded-2xl px-4 py-3 text-sm text-white/85 placeholder:text-white/30 focus:outline-none"
-          style={{ background: '#1a1a2e', border: `1px solid ${COLORS.violet}30` }}
+          style={{ background: '#263449', border: `1px solid ${COLORS.indigo}30` }}
           onKeyDown={(event) => {
             if (event.key === 'Enter' && !event.shiftKey) {
               event.preventDefault()

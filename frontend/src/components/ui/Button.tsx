@@ -16,7 +16,7 @@ const variantClasses: Record<Variant, string> = {
 }
 
 const variantBg: Partial<Record<Variant, string>> = {
-  primary: COLORS.violet,
+  primary: COLORS.indigo,
   danger: COLORS.rose,
 }
 

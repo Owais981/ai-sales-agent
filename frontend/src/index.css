@@ -17,9 +17,9 @@ body,
 }
 
 @theme inline {
-  --color-bg-base: #0a0a12;
-  --color-panel: #13131f;
-  --color-panel2: #1a1a2e;
+  --color-bg-base: #0f172a;
+  --color-panel: #1e293b;
+  --color-panel2: #263449;
   --color-border: rgba(255,255,255,0.07);
   --color-accent-violet: #7c3aed;
   --color-accent-cyan: #06b6d4;

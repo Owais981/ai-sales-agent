@@ -4,7 +4,7 @@ import { COLORS, type AccentColor } from '../../lib/theme'
 import { DashboardIcon, LeadsIcon, ConversationsIcon, BeakerIcon, KnowledgeIcon, SettingsIcon, LogoutIcon } from '../icons'
 
 const navItems: { to: string; label: string; end?: boolean; Icon: typeof DashboardIcon; accent: AccentColor }[] = [
-  { to: '/', label: 'Dashboard', end: true, Icon: DashboardIcon, accent: 'violet' },
+  { to: '/', label: 'Dashboard', end: true, Icon: DashboardIcon, accent: 'indigo' },
   { to: '/leads', label: 'Leads', Icon: LeadsIcon, accent: 'rose' },
   { to: '/conversations', label: 'Conversations', Icon: ConversationsIcon, accent: 'amber' },
   { to: '/test-chat', label: 'Test Chat', Icon: BeakerIcon, accent: 'violet' },
@@ -22,19 +22,31 @@ export function Sidebar() {
     .toUpperCase()
 
   return (
-    <aside className="flex w-60 shrink-0 flex-col border-r border-white/[0.07] bg-[#0d0d1a]">
+    <aside className="flex w-60 shrink-0 flex-col border-r border-white/[0.07] bg-[#0b1220]">
       <div className="flex items-center gap-3 px-5 py-5">
         <div
           className="floating flex h-9 w-9 items-center justify-center rounded-xl text-white"
-          style={{ background: `linear-gradient(135deg, ${COLORS.violet}, ${COLORS.cyan})` }}
+          style={{ background: COLORS.indigo }}
         >
           <span className="text-base leading-none">⬡</span>
         </div>
         <div>
           <div className="text-sm font-bold leading-none text-white/95">Sales & Lead</div>
-          <div className="mt-0.5 text-xs font-semibold" style={{ color: COLORS.violet }}>
+          <div className="mt-0.5 text-xs font-semibold" style={{ color: COLORS.indigo }}>
             AI Agent
           </div>
+        </div>
+      </div>
+
+      <div className="px-5 pb-3">
+        <div
+          className="flex items-center gap-2 rounded-xl px-3 py-2"
+          style={{ background: `${COLORS.emerald}18`, border: `1px solid ${COLORS.emerald}40` }}
+        >
+          <span className="pulse-dot h-2 w-2 rounded-full" style={{ background: COLORS.emerald }} />
+          <span className="text-xs font-semibold" style={{ color: COLORS.emerald }}>
+            AI Agent Active
+          </span>
         </div>
       </div>
 
@@ -76,7 +88,7 @@ export function Sidebar() {
         <div className="flex items-center gap-3 rounded-xl border border-white/[0.06] bg-white/[0.04] px-3 py-3">
           <div
             className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-xs font-bold"
-            style={{ background: `${COLORS.violet}33`, color: COLORS.violet }}
+            style={{ background: `${COLORS.indigo}33`, color: COLORS.indigo }}
           >
             {initials}
           </div>

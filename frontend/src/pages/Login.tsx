@@ -31,13 +31,13 @@ export function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-[#0a0a12] px-4" style={{ fontFamily: 'Outfit, sans-serif' }}>
+    <div className="flex min-h-screen items-center justify-center bg-[#0f172a] px-4" style={{ fontFamily: 'Outfit, sans-serif' }}>
       <Card className="w-full max-w-sm">
         <CardBody className="flex flex-col gap-5 py-8">
           <div className="text-center">
             <div
               className="floating mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-xl text-white"
-              style={{ background: `linear-gradient(135deg, ${COLORS.violet}, ${COLORS.cyan})` }}
+              style={{ background: `linear-gradient(135deg, ${COLORS.indigo}, ${COLORS.cyan})` }}
             >
               <span className="text-lg leading-none">⬡</span>
             </div>

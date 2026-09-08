@@ -74,7 +74,7 @@ export function TestChatPage() {
           }
         />
 
-        <div className="mt-6 flex flex-1 flex-col overflow-hidden rounded-2xl border border-white/[0.07] bg-[#13131f]">
+        <div className="mt-6 flex flex-1 flex-col overflow-hidden rounded-2xl border border-white/[0.07] bg-[#1e293b]">
           {isLoading ? (
             <FullPageSpinner />
           ) : (

@@ -60,7 +60,7 @@ export function TrendBarChart({ data, color, unit = 'lead' }: { data: { label: s
                 {showLabel && (
                   <div
                     className="absolute -top-6 rounded-md px-1.5 py-0.5 text-[10px] font-semibold whitespace-nowrap text-white"
-                    style={{ background: '#1a1a2e', border: '1px solid rgba(255,255,255,0.1)' }}
+                    style={{ background: '#263449', border: '1px solid rgba(255,255,255,0.1)' }}
                   >
                     {d.value}
                   </div>

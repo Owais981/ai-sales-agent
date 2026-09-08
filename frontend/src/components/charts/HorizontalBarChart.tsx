@@ -83,7 +83,7 @@ export function HorizontalBarChart({ data, unit = 'lead' }: { data: CategoryDatu
                 {isHovered && (
                   <div
                     className="pointer-events-none absolute -top-7 left-0 z-10 rounded-lg px-2.5 py-1 text-xs whitespace-nowrap shadow-lg"
-                    style={{ background: '#1a1a2e', border: '1px solid rgba(255,255,255,0.1)' }}
+                    style={{ background: '#263449', border: '1px solid rgba(255,255,255,0.1)' }}
                   >
                     <span className="font-semibold text-white">{d.value}</span>{' '}
                     <span className="text-white/50">

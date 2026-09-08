@@ -42,7 +42,7 @@ export function MessageComposer({
         onChange={(event) => setContent(event.target.value)}
         placeholder="Type a reply to the customer…"
         className="flex-1 resize-none rounded-xl border px-3 py-2 text-sm text-white/85 placeholder:text-white/30 focus:outline-none"
-        style={{ background: '#1a1a2e', borderColor: `${COLORS.indigo}30` }}
+        style={{ background: '#263449', borderColor: `${COLORS.indigo}30` }}
         onKeyDown={(event) => {
           if (event.key === 'Enter' && !event.shiftKey) {
             event.preventDefault()

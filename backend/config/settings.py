@@ -166,11 +166,6 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-# Serves the embeddable chat widget (widget/novulabs-chat-widget.js,
-# novulabs-sw.js) at /static/<file> alongside Django's own static assets -
-# see widget/README.md, which documents that exact URL as the recommended
-# hosting spot so there's one less thing to deploy separately.
-STATICFILES_DIRS = [BASE_DIR.parent / "widget"]
 STORAGES = {
     "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
     "staticfiles": {"BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage"},

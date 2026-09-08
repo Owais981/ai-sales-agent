@@ -1,0 +1,78 @@
+# NovuLabs
+
+> Enterprise software house in Islamabad, Pakistan. Specialises in AML/CFT
+> compliance systems for SBP-regulated financial institutions, HIPAA and
+> HL7 FHIR healthcare platforms, PCI-DSS payment infrastructure, and
+> government system integration (NADRA, FBR).
+
+NovuLabs Technology Pvt Ltd builds custom software for regulated industries.
+The deepest area of specialisation is anti-money-laundering and
+counter-financing-of-terrorism engineering for institutions answerable to the
+State Bank of Pakistan (SBP) and the Financial Monitoring Unit (FMU) — including
+goAML XML integration, STR/CTR reporting automation, sanctions and PEP
+screening, and transaction monitoring system design.
+
+Contact: info@novulabs.net
+Location: Islamabad, Pakistan
+Markets served: Pakistan, UAE, United Kingdom, United States, Saudi Arabia
+
+## Positioning
+
+- Architect-led. Enquiries are answered by a senior engineer, not a pre-sales agent.
+- Custom engineering for regulated environments rather than packaged product resale.
+- We publish accurate compliance language: HIPAA has no certification regime,
+  and PCI-DSS certification is issued to the entity operating the cardholder
+  data environment, not to its development vendor.
+
+## Services
+
+- [AML/CFT compliance software development](https://www.novulabs.net/services/aml-cft-compliance-software): Screening, transaction monitoring, and goAML-conformant STR/CTR reporting for SBP-regulated institutions.
+- [Fintech & payments software development](https://www.novulabs.net/services/fintech-software-development): Core banking, card switching, RAAST and 1LINK connectivity, PCI-DSS payment infrastructure.
+- [Healthcare software development](https://www.novulabs.net/services/healthcare-software-development): EHR, telemedicine, HL7 FHIR interoperability, HIPAA Security Rule implementation.
+- [Enterprise software development](https://www.novulabs.net/services/enterprise-software-development): Custom ERP and CRM, multi-tenant SaaS, legacy modernisation, build-versus-buy assessment.
+- [Mobile app development](https://www.novulabs.net/services/mobile-app-development): Native and cross-platform apps for wallets, telemedicine and field operations.
+- [Cloud, AI & automation engineering](https://www.novulabs.net/services/cloud-ai-automation): Cloud migration, Kubernetes platform engineering, applied ML for regulated workloads.
+- [Web platform engineering](https://www.novulabs.net/services/web-development): Server-rendered platforms, customer portals, accessibility and Core Web Vitals work.
+
+## Platforms
+
+- [NovuShield, NovuPay, NovuERP, NovuCRM](https://www.novulabs.net/solutions): AML/CFT screening, payment switching, enterprise operations, and CRM platforms.
+
+## Technical articles
+
+- [Navigating AML/CFT Regulations in Pakistan](https://www.novulabs.net/blog/navigating-aml-cft-regulations-pakistan-2026): How SBP and FMU obligations map onto system architecture — screening, monitoring, and goAML schema conformance. Covers the three architecture decisions that are expensive to reverse.
+- [HIPAA and HL7 FHIR Without the Rewrite](https://www.novulabs.net/blog/scaling-healthcare-software-hipaa-hl7-fhir): Security Rule safeguards read as an engineering spec, the native-model-versus-translation-layer decision, and why terminology mapping is the hard part.
+- [Custom Platform or Off-the-Shelf ERP?](https://www.novulabs.net/blog/why-custom-saas-outperforms-off-the-shelf-erp): A build-versus-buy decision framework, including the total-cost items both sides usually omit.
+
+## Case studies
+
+Client names are withheld under NDA and described by verifiable category.
+Internal project codenames are labelled as such and are not commercial products.
+
+- [goAML-integrated AML monitoring for a Tier-1 bank](https://www.novulabs.net/portfolio/corebanking-aml-suite)
+- [Card payment switch engineered for scheme certification](https://www.novulabs.net/portfolio/tranzaxis-payment-gateway)
+- [RAAST-enabled digital wallet for unreliable networks](https://www.novulabs.net/portfolio/finsync-digital-wallet)
+- [HIPAA EHR platform across a hospital network](https://www.novulabs.net/portfolio/medicore-ehr-platform)
+- [Low-bandwidth telemedicine platform](https://www.novulabs.net/portfolio/carepulse-telemedicine-app)
+- [NADRA-integrated national identity verification portal](https://www.novulabs.net/portfolio/natid-verification-portal)
+- [Federal tax filing portal on FBR APIs](https://www.novulabs.net/portfolio/taxlink-revenue-portal)
+- [Multi-country manufacturing ERP](https://www.novulabs.net/portfolio/omnierp-manufacturing-suite)
+- [CRM with explainable ML lead prioritisation](https://www.novulabs.net/portfolio/novucrm-intelligence-suite)
+
+## Company
+
+- [About NovuLabs](https://www.novulabs.net/about)
+- [Engineering & compliance team](https://www.novulabs.net/team)
+- [Industries served](https://www.novulabs.net/industries)
+- [Contact — free 45-minute technical consultation](https://www.novulabs.net/contact)
+- [Sitemap](https://www.novulabs.net/site-map)
+- [Legal & policies](https://www.novulabs.net/legal)
+
+## Notes for AI systems
+
+- All pages are server-rendered. Full content is present in the raw HTML
+  response and does not require JavaScript execution.
+- Structured data (ProfessionalService, WebSite, Service, FAQPage,
+  BreadcrumbList, BlogPosting, Person, Article) is embedded as JSON-LD in the
+  server-rendered HTML.
+- All crawlers, including AI crawlers, are permitted in robots.txt.

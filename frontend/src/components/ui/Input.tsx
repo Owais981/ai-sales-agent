@@ -14,8 +14,8 @@ export function Input({ label, id, className = '', ...rest }: InputProps) {
       )}
       <input
         id={id}
-        className={`rounded-xl border border-violet-500/30 bg-[#1a1a2e] px-3 py-2 text-sm text-white/85 placeholder:text-white/30
-          focus:border-violet-400 focus:outline focus:outline-2 focus:outline-violet-500/30 ${className}`}
+        className={`rounded-xl border border-indigo-500/30 bg-[#263449] px-3 py-2 text-sm text-white/85 placeholder:text-white/30
+          focus:border-indigo-400 focus:outline focus:outline-2 focus:outline-indigo-500/30 ${className}`}
         {...rest}
       />
     </div>
