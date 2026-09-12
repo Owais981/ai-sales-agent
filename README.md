@@ -156,3 +156,5 @@ New leads are always visible on the dashboard regardless of notification channel
 **Needs configuration before full production use:** `GEMINI_API_KEY` on a billed (not free-tier) plan — the free tier caps at 20 requests/day, which is exhausted almost immediately even during setup/testing — `WHATSAPP_ACCESS_TOKEN`/`WHATSAPP_PHONE_NUMBER_ID`/`WHATSAPP_APP_SECRET`, a reachable `DATABASE_URL` (Postgres), and a public HTTPS URL for the webhook. Everything else runs today with zero external credentials (verified end-to-end against SQLite in this environment).
 
 **Beyond the original FR1–FR11 scope:** a public embeddable website chat widget (`widget/`) was added on top of the same pipeline, alongside WhatsApp — see `widget/README.md`.
+#   a i - s a l e s - a g e n t  
+ 
