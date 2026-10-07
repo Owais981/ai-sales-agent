@@ -25,46 +25,69 @@ import { useEffect } from 'react';
  */
 export default function ScrollReveal() {
   useEffect(() => {
-    const nodes = Array.from(
-      document.querySelectorAll<HTMLElement>('[data-reveal]')
-    );
-    if (nodes.length === 0) return;
-
-    const revealAll = () => {
-      nodes.forEach((el) => {
-        el.dataset.reveal = 'is-visible';
-      });
-    };
-
     const prefersReduced = window.matchMedia(
       '(prefers-reduced-motion: reduce)'
     ).matches;
+    const noObserver = typeof IntersectionObserver === 'undefined';
 
-    if (prefersReduced || typeof IntersectionObserver === 'undefined') {
-      revealAll();
-      return;
-    }
+    // This component lives in the root layout, so it mounts once and survives
+    // client-side navigation. Scanning only on mount meant every page reached
+    // through the navbar kept its `[data-reveal]` elements at opacity 0 until a
+    // hard refresh. A MutationObserver picks up elements as any page (or any
+    // client-side re-render, e.g. a filter change) adds them.
+    const seen = new WeakSet<Element>();
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          const el = entry.target as HTMLElement;
-          el.dataset.reveal = 'is-visible';
-          observer.unobserve(el);
+    const reveal = (el: HTMLElement) => {
+      el.dataset.reveal = 'is-visible';
+    };
+
+    const io = prefersReduced || noObserver
+      ? null
+      : new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const el = entry.target as HTMLElement;
+              reveal(el);
+              io?.unobserve(el);
+            });
+          },
+          {
+            // Start the transition 12% of the viewport height before the
+            // element scrolls into view.
+            rootMargin: '0px 0px -12% 0px',
+            threshold: 0.01,
+          }
+        );
+
+    const scan = () => {
+      document
+        .querySelectorAll<HTMLElement>('[data-reveal]:not([data-reveal="is-visible"])')
+        .forEach((el) => {
+          if (seen.has(el)) return;
+          seen.add(el);
+          if (io) io.observe(el);
+          else reveal(el);
         });
-      },
-      {
-        // Start the transition 12% of the viewport height before the element
-        // scrolls into view.
-        rootMargin: '0px 0px -12% 0px',
-        threshold: 0.01,
-      }
-    );
+    };
 
-    nodes.forEach((el) => observer.observe(el));
+    scan();
 
-    return () => observer.disconnect();
+    let queued = false;
+    const mutations = new MutationObserver(() => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => {
+        queued = false;
+        scan();
+      });
+    });
+    mutations.observe(document.body, { childList: true, subtree: true });
+
+    return () => {
+      mutations.disconnect();
+      io?.disconnect();
+    };
   }, []);
 
   return null;

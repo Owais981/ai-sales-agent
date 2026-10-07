@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 /**
  * Scroll-linked depth for `[data-parallax]` elements.
@@ -33,6 +34,10 @@ import { useEffect } from 'react';
  *   opt-out, not a reduced-amplitude version.
  */
 export default function Parallax() {
+  // Re-run on route change: this lives in the root layout and would otherwise
+  // only ever see the first page's `[data-parallax]` elements.
+  const pathname = usePathname();
+
   useEffect(() => {
     const nodes = Array.from(
       document.querySelectorAll<HTMLElement>('[data-parallax]')
@@ -107,7 +112,7 @@ export default function Parallax() {
         el.style.willChange = 'auto';
       });
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }

@@ -354,35 +354,35 @@
     "source_page": "engineering-compliance-team",
     "title": "Engineering & Compliance Team",
     "chunk_index": 0,
-    "content": "Home Team Our People The Engineers Behind the Infrastructure We do not employ pre-sales agents. Every person you interface with at NovuLabs is an active practitioner, engineer, or compliance architect. Muneeb Ali Jaffari, CEO and Founder of NovuLabs Muneeb Ali Jaffari CEO & Founder Muneeb founded NovuLabs and leads its enterprise engagements, including the initial architecture conversation on most new work. He writes here on build-versus-buy economics and on why the honest recommendation is frequently to buy. Profile & published work Enterprise strategy Build vs buy Delivery models Shamroz Ali Zaidi, Chief Technology Officer of NovuLabs Shamroz Ali Zaidi Chief Technology Officer Shamroz leads platform architecture at NovuLabs, covering multi-tenant SaaS design, cloud and Kubernetes platform engineering, and the security posture of regulated workloads. He writes here on HIPAA safeguards and HL7 FHIR interoperability. Profile & published work Platform architecture Cloud & Kubernetes Security engineering Ali Zaidi, Chief Operating Officer of NovuLabs Ali Zaidi Chief Operating Officer Ali runs delivery operations and the compliance practice at NovuLabs, including AML/CFT engagements with SBP-regulated institutions. He writes here on goAML integration, transaction monitoring design, and what regulatory examination actually asks of a system. Profile & published work AML/CFT programmes Delivery operations Regulatory"
+    "content": "Home Team Our People The Engineers Behind the Infrastructure We do not employ pre-sales agents. Every person you interface with at NovuLabs is an active practitioner, engineer, or compliance architect. Muneeb Ali Jaffari, CEO and Founder of NovuLabs Muneeb Ali Jaffari CEO & Founder Muneeb founded NovuLabs and leads its enterprise engagements, including the initial architecture conversation on most new work. He writes here on build-versus-buy economics and on why the honest recommendation is frequently to buy. Profile & published work Enterprise strategy Build vs buy Delivery models"
   },
   {
     "id": "chunk_0052",
     "source_page": "engineering-compliance-team",
     "title": "Engineering & Compliance Team",
     "chunk_index": 1,
-    "content": "operations and the compliance practice at NovuLabs, including AML/CFT engagements with SBP-regulated institutions. He writes here on goAML integration, transaction monitoring design, and what regulatory examination actually asks of a system. Profile & published work AML/CFT programmes Delivery operations Regulatory engagement Join Us We are always looking for exceptional engineers. If you are a senior system builder, compliance expert, or performance engineer who values architectural integrity and clean engineering over generic project cycles, we'd like to meet you. Send us your CV Apply Now All applicants must undergo a rigorous code-writing and architecture challenge. Only senior positions are currently open."
+    "content": "Join Us We are always looking for exceptional engineers. If you are a senior system builder, compliance expert, or performance engineer who values architectural integrity and clean engineering over generic project cycles, we'd like to meet you. Send us your CV Apply Now All applicants must undergo a rigorous code-writing and architecture challenge. Only senior positions are currently open."
   },
   {
     "id": "chunk_0053",
     "source_page": "insights-aml-fintech-healthcare-it",
     "title": "Insights: AML, Fintech & Healthcare IT",
     "chunk_index": 0,
-    "content": "Home Insights Perspectives & Insights Technical Insights Deep technical articles and strategic research on enterprise systems compliance, cloud scalability, payments infrastructure, and secure technology. All Compliance Healthcare Enterprise Transaction monitoring dashboard showing alert queues for AML/CFT screening at a Pakistani financial institution Compliance 11 min read Navigating AML/CFT Regulations in Pakistan: An Engineering Guide for Fintechs How SBP and FMU requirements translate into actual system architecture: screening, transaction monitoring, and goAML-conformant STR/CTR reporting. By Ali Zaidi • July 15, 2026 Read Article Clinician using a HIPAA-compliant electronic health record system with HL7 FHIR data exchange Healthcare 10 min read Scaling Healthcare Platforms: HIPAA and HL7 FHIR Without the Rewrite Engineering EHR and telemedicine systems that satisfy the HIPAA Security Rule while staying genuinely interoperable through HL7 FHIR resources. By Shamroz Ali Zaidi • June 28, 2026 Read Article Enterprise architecture diagram comparing a custom-built platform with an off-the-shelf ERP deployment Enterprise 9 min read Custom Platform or Off-the-Shelf ERP? An Honest Decision Framework When building beats buying, when it does not, and the total-cost model that makes the difference visible before you have committed the budget. By Muneeb Ali Jaffari • May 10, 2026 Read Article Engineering view of a"
+    "content": "Home Insights Perspectives & Insights Technical Insights Deep technical articles and strategic research on enterprise systems compliance, cloud scalability, payments infrastructure, and secure technology. All Compliance Healthcare Enterprise Transaction monitoring dashboard showing alert queues for AML/CFT screening at a Pakistani financial institution Compliance 11 min read Navigating AML/CFT Regulations in Pakistan: An Engineering Guide for Fintechs How SBP and FMU requirements translate into actual system architecture: screening, transaction monitoring, and goAML-conformant STR/CTR reporting. By Muneeb Ali Jaffari • July 15, 2026 Read Article Clinician using a HIPAA-compliant electronic health record system with HL7 FHIR data exchange Healthcare 10 min read Scaling Healthcare Platforms: HIPAA and HL7 FHIR Without the Rewrite Engineering EHR and telemedicine systems that satisfy the HIPAA Security Rule while staying genuinely interoperable through HL7 FHIR resources. By Muneeb Ali Jaffari • June 28, 2026 Read Article Enterprise architecture diagram comparing a custom-built platform with an off-the-shelf ERP deployment Enterprise 9 min read Custom Platform or Off-the-Shelf ERP? An Honest Decision Framework When building beats buying, when it does not, and the total-cost model that makes the difference visible before you have committed the budget. By Muneeb Ali Jaffari • May 10, 2026 Read Article Engineering view of a"
   },
   {
     "id": "chunk_0054",
     "source_page": "insights-aml-fintech-healthcare-it",
     "title": "Insights: AML, Fintech & Healthcare IT",
     "chunk_index": 1,
-    "content": "Honest Decision Framework When building beats buying, when it does not, and the total-cost model that makes the difference visible before you have committed the budget. By Muneeb Ali Jaffari • May 10, 2026 Read Article Engineering view of a goAML XML submission pipeline showing schema validation before transmission to FMU Pakistan Compliance 10 min read Building a goAML Integration: STR and CTR Reporting That Passes Validation An engineering guide to goAML XML submission for Pakistani institutions: schema modelling, the rejection causes we see most, and how to build a pipeline that validates before it submits. By Ali Zaidi • August 19, 2026 Read Article Payment engineering diagram showing RAAST instant payment flow with alias resolution and reconciliation stages Fintech 9 min read Integrating RAAST: What Building on Pakistan's Instant Payment Rail Actually Involves An engineering perspective on RAAST integration: ISO 20022 messaging, alias resolution, idempotency and reconciliation, and the failure modes that matter in instant payments. By Muneeb Ali Jaffari • August 19, 2026 Read Article Identity verification flow diagram showing CNIC validation, biometric capture and assurance tiering for Pakistani digital KYC Identity 10 min read Digital KYC in Pakistan: Designing CNIC and Biometric Verification That Holds Up How"
+    "content": "Honest Decision Framework When building beats buying, when it does not, and the total-cost model that makes the difference visible before you have committed the budget. By Muneeb Ali Jaffari • May 10, 2026 Read Article Engineering view of a goAML XML submission pipeline showing schema validation before transmission to FMU Pakistan Compliance 10 min read Building a goAML Integration: STR and CTR Reporting That Passes Validation An engineering guide to goAML XML submission for Pakistani institutions: schema modelling, the rejection causes we see most, and how to build a pipeline that validates before it submits. By Muneeb Ali Jaffari • August 19, 2026 Read Article Payment engineering diagram showing RAAST instant payment flow with alias resolution and reconciliation stages Fintech 9 min read Integrating RAAST: What Building on Pakistan's Instant Payment Rail Actually Involves An engineering perspective on RAAST integration: ISO 20022 messaging, alias resolution, idempotency and reconciliation, and the failure modes that matter in instant payments. By Muneeb Ali Jaffari • August 19, 2026 Read Article Identity verification flow diagram showing CNIC validation, biometric capture and assurance tiering for Pakistani digital KYC Identity 10 min read Digital KYC in Pakistan: Designing CNIC and Biometric Verification That Holds Up How"
   },
   {
     "id": "chunk_0055",
     "source_page": "insights-aml-fintech-healthcare-it",
     "title": "Insights: AML, Fintech & Healthcare IT",
     "chunk_index": 2,
-    "content": "Jaffari • August 19, 2026 Read Article Identity verification flow diagram showing CNIC validation, biometric capture and assurance tiering for Pakistani digital KYC Identity 10 min read Digital KYC in Pakistan: Designing CNIC and Biometric Verification That Holds Up How to design identity verification around CNIC and biometric checks for Pakistani financial and government platforms — including consent, data minimisation, fallbacks and audit evidence. By Shamroz Ali Zaidi • August 19, 2026 Read Article"
+    "content": "Jaffari • August 19, 2026 Read Article Identity verification flow diagram showing CNIC validation, biometric capture and assurance tiering for Pakistani digital KYC Identity 10 min read Digital KYC in Pakistan: Designing CNIC and Biometric Verification That Holds Up How to design identity verification around CNIC and biometric checks for Pakistani financial and government platforms — including consent, data minimisation, fallbacks and audit evidence. By Muneeb Ali Jaffari • August 19, 2026 Read Article"
   },
   {
     "id": "chunk_0056",
@@ -397,5 +397,159 @@
     "title": "Contact — Book a Free Technical Call",
     "chunk_index": 1,
     "content": "do you want to build? What problem are you solving? Timeline and compliance requirements... Send Message → We Respond in 4 Hours Your information is confidential and never shared with third parties. Our office Pakistan (HQ) Islamabad, Pakistan Direct contacts General Inquiries info@novulabs.net Enterprise Sales info@novulabs.net Business Hours (PKT) Mon-Fri: 9AM-6PM 24/7 for enterprise SLA clients NovuLabs HQ Islamabad, Pakistan Open Maps FAQ Before you book the call What is the minimum project size NovuLabs works with? Typically $15,000 USD for a standalone module or MVP. Full enterprise platforms start from $50,000. We focus on end-to-end delivery — not hourly freelance work. Do you sign NDAs before discussions? Can you work alongside our existing in-house team? What compliance frameworks do you work to? Do you offer fixed-price or time-and-material contracts?"
+  },
+  {
+    "id": "chunk_0058",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 0,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform).\nAn end-to-end compliance platform for identity verification, business verification and anti-money-laundering screening. Warden helps banks, fintechs and crypto firms onboard customers faster while keeping risk, sanctions and fraud under control.\nWarden AML is a multi-tenant RegTech platform that brings KYC, KYB, sanctions & PEP screening, fraud detection, transaction monitoring and case management into one system, with an onboarding app for customers and a compliance portal for teams.\nType: B2B SaaS web platform (multi-tenant), with REST API.\nIndustry: RegTech / FinTech, Anti-Money Laundering (AML), Know Your Customer (KYC), Know Your Business (KYB), Fraud Prevention.\nTarget users: Banks, Fintechs, Payment companies, Crypto exchanges and wallets, Marketplaces, Other regulated businesses.\nProject page: https://www.novulabs.net/projects/warden-aml"
+  },
+  {
+    "id": "chunk_0059",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 1,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Detailed description.\nWarden AML is a full compliance platform built for regulated and fast-growing businesses in the UK and EU, including crypto companies. It covers the whole customer lifecycle: onboarding, verification, screening, ongoing monitoring and investigation.\nCustomers complete onboarding through a dedicated web app: document upload, passport MRZ reading, a live head-movement liveness check, selfie-to-ID face matching, and email and phone verification codes. Businesses are verified through company registry checks (including the UK Companies House register), automatic import of directors and owners, multi-layer ownership analysis to find ultimate beneficial owners (UBOs), and individual KYC for each owner and director.\nEvery person and company is screened against sanctions, PEP and watchlist data, with fuzzy name matching that also weighs date of birth and nationality to reduce false positives. Customers are then monitored continuously: rescreening when lists change, document expiry tracking, periodic re-verification by risk level, and transaction monitoring with crypto Travel Rule support.\nCompliance teams work in a dedicated portal with configurable risk scoring, alerts, case management, an audit trail, analytics, and AI assistance for summaries and setup. A vendor-independent integration layer connects external providers (identity verification, company registries, sanctions data, SMS and email) through swappable adapters with signed webhooks, so providers can change without rebuilding the product."
+  },
+  {
+    "id": "chunk_0060",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 2,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Why it is valuable.\nCompliance shouldn't slow your business down. Warden AML gives regulated companies one platform to verify people and businesses, screen them against sanctions and PEP lists, and keep watching for risk long after onboarding.\nCustomers move through a clean, guided onboarding flow with document checks, liveness and face matching, while your compliance team gets a single workspace for risk scores, alerts, cases and a complete audit trail. Business customers are unpacked automatically: registry data, directors, owners and ultimate beneficial owners, each verified in turn.\nBuilt-in fraud signals catch fake identities, multi-accounting and account takeover. Smart matching reduces false positives, AI assistance speeds up reviews, and a vendor-independent architecture lets you choose the best providers for each market. Warden AML is designed for teams that need to move fast and stay audit-ready, from fintech start-ups to growing crypto platforms."
+  },
+  {
+    "id": "chunk_0061",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 3,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Main problems it solves:\n- Slow, manual customer onboarding → Guided self-service verification flows\n- Fake or forged identities → Document checks, liveness and face matching\n- Hidden company ownership → Automatic UBO discovery and owner verification\n- Sanctions and PEP exposure → Screening plus continuous rescreening\n- Too many false alerts → Matching on name, date of birth and nationality\n- Account takeover and multi-accounting → Device, IP, email and phone risk signals\n- Scattered tools and evidence → One system with case management and a full audit trail\n- Vendor lock-in → Swappable provider integrations"
+  },
+  {
+    "id": "chunk_0062",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 4,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Key features:\n- Identity verification: ID upload, OCR, passport MRZ reading with check digits\n- Liveness check (head-movement challenge) with anti-spoofing model\n- Selfie-to-ID face matching\n- Email and phone verification codes\n- Proof of address checks\n- KYB: registry checks, director/owner import, ownership tree, UBO calculation (25% rule)"
+  },
+  {
+    "id": "chunk_0063",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 5,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Key features:\n- KYC links for every beneficial owner and director\n- Sanctions, PEP and watchlist screening for people and companies\n- Ongoing monitoring: rescreening, document expiry alerts, periodic re-verification\n- Custom client watchlists\n- Fraud prevention: device fingerprinting, IP risk, velocity checks, duplicate detection, fraud-network linking, account-takeover detection\n- Transaction monitoring with configurable rules and crypto wallet screening"
+  },
+  {
+    "id": "chunk_0064",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 6,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Key features:\n- Crypto Travel Rule data (IVMS101 format)\n- Configurable risk scoring, risk levels and industry risk ratings\n- Case management, alerts and regulatory reports\n- Configurable verification levels per client\n- Reusable KYC (verified identity shared with consent)\n- Qualified electronic signature step with one-time codes"
+  },
+  {
+    "id": "chunk_0065",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 7,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Key features:\n- Analytics dashboards\n- Full audit trail of every action and decision\n- Developer API with sandbox keys and webhooks\n- Data residency and retention controls with automatic data deletion"
+  },
+  {
+    "id": "chunk_0066",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 8,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). AI and machine learning features:\n- AI Copilot (\"Summy\"): In-app assistant that answers compliance and product questions (Google Gemini).\n- AI case/applicant summaries: Generated on request and always reviewed by a human.\n- AI verification-level builder: Turns a prompt or regulation text into a draft verification setup that a compliance officer must approve.\n- AI adverse-media classification: Separates genuine negative news from namesakes and irrelevant articles (Anthropic Claude).\n- Computer vision: OCR with EasyOCR and Tesseract, MRZ reading.\n- Liveness: In-browser head-pose tracking (MediaPipe) plus an anti-spoofing model (MiniFASNetV2, PyTorch).\n- Face matching: Through commercial providers (Didit / AWS Rekognition).\n- Fuzzy name matching: RapidFuzz with date-of-birth and nationality scoring.\n- Risk scoring: Rule-based and behavioural."
+  },
+  {
+    "id": "chunk_0067",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 9,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Technologies and tech stack:\n- Backend: Python, Django 5, Django REST Framework, drf-spectacular (OpenAPI)\n- Background jobs: Celery, Celery Beat, Redis\n- Database: PostgreSQL, SQLite (local development)\n- Frontend: React, Vite, Tailwind CSS\n- AI / ML: PyTorch, ONNX Runtime, OpenCV, EasyOCR, Tesseract, MediaPipe, RapidFuzz, Google Gemini API, Anthropic API\n- Integrations: Didit, UK Companies House, OpenSanctions, Twilio, AWS (S3, SES, Rekognition), FingerprintJS\n- Security: Encrypted credentials (Fernet), HMAC-signed webhooks, Two-factor authentication, Role-based access, Audit logging\n- Deployment: Gunicorn, WhiteNoise, S3-compatible storage"
+  },
+  {
+    "id": "chunk_0068",
+    "source_page": "project-warden-aml",
+    "title": "Warden AML — KYC, KYB & AML Compliance Platform",
+    "chunk_index": 10,
+    "content": "NovuLabs project: Warden AML (KYC, KYB & AML Compliance Platform). Important modules:\n- Applicants: Onboarding records, documents, decisions, status engine\n- Identity Verification: OCR, MRZ, liveness, face match, proof of address, video ID\n- KYB: Companies, registry checks, officers, owners, UBO tree\n- AML Screening: Watchlist ingestion, matching, rescreening, adverse media\n- Fraud Prevention: Device, IP, email, phone risk; velocity; fraud networks; forensics\n- Transaction Monitoring: Rules, alerts, crypto wallet screening, Travel Rule\n- Risk Engine: Risk scores, levels, history, scheduled recalculation\n- Case Management: Alerts, cases, investigations, regulatory reports\n- Verification Levels: Configurable onboarding steps per client\n- Reusable Identity: Consent-based sharing of verified identities\n- Integrations: Vendor connectors, webhooks, API keys\n- AI Copilot: Assistant, summaries, level builder\n- Analytics & Audit: Dashboards, daily rollups, full audit log\n- Customer Onboarding App: Applicant-facing web app"
+  },
+  {
+    "id": "chunk_0069",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 0,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform).\nAn enterprise platform that brings risk management, compliance, internal audit, third-party risk and business continuity into one connected system. Built for organisations that need a single, audit-ready view of risk and control.\nGRC Suite is an integrated Governance, Risk & Compliance platform covering enterprise risk, controls, compliance frameworks, internal audit, third-party risk, business impact analysis, IT security, loss events, KRIs and customer KYC risk — with a no-code app builder and enterprise single sign-on.\nType: Enterprise web platform (GRC software) with REST API.\nIndustry: Governance, Risk & Compliance (GRC), RegTech.\nTarget users: Banks and financial institutions, Regulated enterprises, Internal audit teams, Risk teams, Compliance teams, IT security teams, Procurement teams, Business continuity teams.\nProject page: https://www.novulabs.net/projects/grc-suite"
+  },
+  {
+    "id": "chunk_0070",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 1,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Detailed description.\nGRC Suite is an enterprise Governance, Risk & Compliance platform that replaces spreadsheets and disconnected tools with one system of record. It links an organisation's structure (legal entities, departments, business processes and IT applications) to its risks, controls, policies, obligations, audits, vendors and incidents, so every team works from the same data.\nRisk teams maintain a full risk register with categories, causes, consequences, scenarios, impact dimensions, heat maps and score history, and manage treatment plans, risk acceptances, exceptions and change requests through approval workflows. Compliance teams map frameworks, requirements and sub-obligations to policies, control standards and controls, then run test plans, bulk testing and control self-assessments with compliance reports.\nInternal audit is covered end to end: audit universe, program and procedure libraries, engagements, scoping, workpapers, evidence, findings, exceptions with root-cause analysis, and PDF audit reports, plus an auditee portal. The platform also manages third-party risk (vendor catalogue, contracts, questionnaires, financial viability, subcontractors and a vendor portal), business impact analysis and continuity, IT security (vulnerabilities, scan ingestion, cyber incidents and security spend), operational loss events, key risk indicators and customer KYC risk assessments.\nA no-code app builder lets administrators create their own applications, fields, layouts and rules, while fine-grained access control, enterprise SSO and full audit logging keep the platform secure and accountable."
+  },
+  {
+    "id": "chunk_0071",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 2,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Why it is valuable.\nRisk doesn't live in one department, and neither should your GRC program. GRC Suite connects risk, compliance, audit, vendors and business continuity in a single platform, so leaders see the full picture and teams stop chasing spreadsheets.\nMap every regulation to the policies and controls that satisfy it. Run audits from planning to final report with structured workpapers and evidence. Assess vendors and their subcontractors, understand which business processes matter most, and track incidents and losses as they happen, with executives alerted when thresholds are crossed.\nWhen your processes don't fit a template, the no-code app builder lets you build your own. Enterprise single sign-on, fine-grained permissions and complete audit logs keep everything secure and accountable, and AI suggestions always stay under human review. GRC Suite gives your organisation one trusted source of truth for governance, risk and compliance."
+  },
+  {
+    "id": "chunk_0072",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 3,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Main problems it solves:\n- Risk, compliance and audit data scattered across spreadsheets → One connected system\n- No clear link between regulations, policies and controls → Full mapping from obligation to policy to control standard to control\n- Manual, slow audits → Structured audit programs, workpapers and automated reports\n- Unmanaged vendor and subcontractor risk → Third-party lifecycle and vendor portal\n- Unclear business-critical processes → Business impact analysis and continuity planning\n- Late visibility of incidents and losses → Loss events with executive threshold alerts\n- Rigid off-the-shelf tools → No-code app builder for custom processes\n- Access and accountability gaps → Role-based access, SSO and complete audit trails"
+  },
+  {
+    "id": "chunk_0073",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 4,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Key features:\n- Enterprise risk register: categories, sub-categories, assets, causes, consequences, risk scenario library, impact dimensions, risk heat map, risk score history\n- Risk treatment plans and milestones, risk acceptance, exception and change requests with approval workflows\n- Controls library, risk-to-control mapping and control test results\n- Compliance frameworks, requirements, sub-obligations, citations and obligations browsers\n- Policies and control standards with full mapping to requirements and controls\n- Control test plans, compliance engagements, bulk testing, control self-assessments and compliance reports"
+  },
+  {
+    "id": "chunk_0074",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 5,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Key features:\n- Internal audit: audit universe, audit program library, proposed engagements, scoping, workpapers, evidence, findings, observations, exceptions with root causes, imported engagements and PDF audit reports\n- Auditee portal and evidence requests\n- Issues, findings folders, action plans, remediation tracking and issues-aging dashboard\n- Business impact analysis: impact dimensions, process dependencies, severity and criticality bands, continuity procedures, external dependencies, approvals, export\n- Third-party risk: vendor catalogue, engagements, contracts, contract review checklists and approval workflow, risk ratings, financial viability, questionnaires, vendor portal, subcontractor register and security rating snapshots\n- IT security: risk statement library, bulk risk generation for business processes, vulnerability queue, scan result ingestion, security control profiles and spend, cyber incident management linked to loss events"
+  },
+  {
+    "id": "chunk_0075",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 6,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Key features:\n- Operational loss events: impacts, approval rules and executive threshold alerts\n- Key risk indicators (metrics) with measurements and automatic status\n- Customer KYC risk assessment: weighted risk factors, thresholds, risk bands, approvals, review notifications and audit log\n- Organisation structure: legal entities, departments, business processes, IT application profiles\n- No-code app builder: custom applications, data fields, layouts, rules and actions, field dependencies, record permissions and field history\n- Task dashboard and data migration from Excel"
+  },
+  {
+    "id": "chunk_0076",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 7,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Key features:\n- Excel and PDF exports"
+  },
+  {
+    "id": "chunk_0077",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 8,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). AI and machine learning features:\n- AI suggestion framework: Human-in-the-loop review: suggestions can be accepted, accepted with edits, or rejected by a reviewer.\n- Full provenance: Every suggestion stores a rationale, confidence score, required citations, and model and prompt version (full provenance for auditability).\n- Escalation guard and history: Full history of what was proposed versus what was applied.\n- Safe model integration: Designed so an AI model can be connected to propose risk classifications and other updates safely, without changing data automatically.\n- Rule-based automation: Bulk risk generation from a risk statement library, automatic KRI status calculation, executive loss-threshold checks."
+  },
+  {
+    "id": "chunk_0078",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 9,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Technologies and tech stack:\n- Backend: Python, Django 6, Django REST Framework, Simple JWT, django-filter\n- Background jobs: Celery\n- Data processing: pandas, NumPy, openpyxl (Excel import/export), ReportLab (PDF reports)\n- Frontend: React 19, Vite, Tailwind CSS, Axios, Lucide icons\n- Identity and security: LDAP, SAML 2.0 (python3-saml), OpenID Connect (Authlib), SCIM user provisioning, JWT authentication, cryptography\n- Admin: Django Jazzmin\n- Database: SQLite (development)"
+  },
+  {
+    "id": "chunk_0079",
+    "source_page": "project-grc-suite",
+    "title": "GRC Suite — Integrated Governance, Risk & Compliance Platform",
+    "chunk_index": 10,
+    "content": "NovuLabs project: GRC Suite (Integrated Governance, Risk & Compliance Platform). Important modules:\n- Risk: Risk register, scenarios, treatment, acceptance, approvals, heat map\n- Controls: Control library, risk mapping, control testing\n- Compliance: Frameworks, obligations, policies, control standards, testing, reports\n- Audit: Audit universe, programs, engagements, workpapers, findings, reports\n- Treatment Evidence: Evidence requests and evidence collection\n- BIA: Business impact analysis and continuity planning\n- Third Party: Vendor risk, contracts, questionnaires, vendor portal, subcontractors\n- IT Security: Vulnerabilities, scans, security controls, cyber incidents\n- Loss Events: Operational losses, impacts, executive thresholds\n- Metrics: Key risk indicators and measurements\n- KYC: Customer risk assessment with weighted factors and bands\n- Organization: Legal entities, departments, processes, IT applications\n- App Builder: No-code custom applications, layouts and rules\n- Accounts: Users, roles, groups, permissions, SSO, SCIM, security events\n- AI: Reviewed AI suggestions with provenance"
   }
 ]

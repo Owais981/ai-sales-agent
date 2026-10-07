@@ -219,40 +219,4 @@ export const teamMembers: TeamMemberProfile[] = [
       'Total cost of ownership modelling',
     ],
   },
-  {
-    slug: 'shamroz-ali-zaidi',
-    name: 'Shamroz Ali Zaidi',
-    role: 'Chief Technology Officer',
-    img: '/team/shamroz-ali-zaidi.jpg',
-    imgAlt: 'Shamroz Ali Zaidi, Chief Technology Officer of NovuLabs',
-    bio: 'Owns platform architecture — multi-tenant systems, cloud, and the security posture underneath both.',
-    longBio:
-      'Shamroz leads platform architecture at NovuLabs, covering multi-tenant SaaS design, cloud and Kubernetes platform engineering, and the security posture of regulated workloads. He writes here on HIPAA safeguards and HL7 FHIR interoperability.',
-    skills: ['Platform architecture', 'Cloud & Kubernetes', 'Security engineering'],
-    credentials: [],
-    knowsAbout: [
-      'Multi-tenant SaaS architecture',
-      'HIPAA Security Rule implementation',
-      'HL7 FHIR interoperability',
-      'Kubernetes platform engineering',
-    ],
-  },
-  {
-    slug: 'ali-zaidi',
-    name: 'Ali Zaidi',
-    role: 'Chief Operating Officer',
-    img: '/team/ali-zaidi.jpg',
-    imgAlt: 'Ali Zaidi, Chief Operating Officer of NovuLabs',
-    bio: 'Runs delivery and the compliance practice, including AML/CFT engagements with SBP-regulated institutions.',
-    longBio:
-      'Ali runs delivery operations and the compliance practice at NovuLabs, including AML/CFT engagements with SBP-regulated institutions. He writes here on goAML integration, transaction monitoring design, and what regulatory examination actually asks of a system.',
-    skills: ['AML/CFT programmes', 'Delivery operations', 'Regulatory engagement'],
-    credentials: [],
-    knowsAbout: [
-      'AML/CFT compliance programmes',
-      'goAML STR and CTR reporting',
-      'Transaction monitoring system design',
-      'FMU and SBP regulatory requirements',
-    ],
-  },
 ];

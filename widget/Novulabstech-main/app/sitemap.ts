@@ -3,6 +3,7 @@ import { SITE_URL, canonical } from '@/lib/seo';
 import { servicePages } from '@/content/servicePages';
 import { serviceSpokes } from '@/content/serviceSpokes';
 import { caseStudies } from '@/content/caseStudies';
+import { projects } from '@/content/projects';
 import { blogPosts } from '@/content/blogPosts';
 import { legalPages } from '@/content/legalPages';
 import { teamMembers } from '@/content/siteData';
@@ -29,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/services', priority: 0.9, changeFrequency: 'monthly' as const },
     { path: '/solutions', priority: 0.9, changeFrequency: 'monthly' as const },
     { path: '/industries', priority: 0.8, changeFrequency: 'monthly' as const },
+    { path: '/projects', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/portfolio', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const },
     { path: '/about', priority: 0.7, changeFrequency: 'monthly' as const },
@@ -75,6 +77,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const projectRoutes: MetadataRoute.Sitemap = projects.map((p) => ({
+    url: `${SITE_URL}/projects/${p.slug}`,
+    lastModified: buildDate,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
   // Real per-post modification dates, so lastmod carries actual signal.
   const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((p) => ({
     url: `${SITE_URL}/blog/${p.slug}`,
@@ -100,5 +109,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.2,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...serviceSpokeRoutes, ...caseStudyRoutes, ...blogRoutes, ...authorRoutes, ...legalRoutes];
+  return [...staticRoutes, ...serviceRoutes, ...serviceSpokeRoutes, ...caseStudyRoutes, ...projectRoutes, ...blogRoutes, ...authorRoutes, ...legalRoutes];
 }

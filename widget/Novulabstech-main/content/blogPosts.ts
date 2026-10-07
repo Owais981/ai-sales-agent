@@ -78,8 +78,8 @@ export const blogPosts: BlogPost[] = [
     date: 'July 15, 2026',
     publishedISO: '2026-07-15T09:00:00+05:00',
     modifiedISO: '2026-08-16T09:00:00+05:00',
-    author: 'Ali Zaidi',
-    authorSlug: 'ali-zaidi',
+    author: 'Muneeb Ali Jaffari',
+    authorSlug: 'muneeb-ali-jaffari',
     readTime: '11 min read',
     tags: ['AML', 'CFT', 'Fintech', 'FMU Pakistan', 'goAML'],
     related: [
@@ -147,8 +147,8 @@ export const blogPosts: BlogPost[] = [
     date: 'June 28, 2026',
     publishedISO: '2026-06-28T09:00:00+05:00',
     modifiedISO: '2026-08-16T09:00:00+05:00',
-    author: 'Shamroz Ali Zaidi',
-    authorSlug: 'shamroz-ali-zaidi',
+    author: 'Muneeb Ali Jaffari',
+    authorSlug: 'muneeb-ali-jaffari',
     readTime: '10 min read',
     tags: ['Healthcare', 'HIPAA', 'HL7 FHIR', 'EHR', 'Interoperability'],
     related: [
@@ -288,8 +288,8 @@ export const blogPosts: BlogPost[] = [
     date: 'August 19, 2026',
     publishedISO: '2026-08-19T09:00:00+05:00',
     modifiedISO: '2026-08-19T09:00:00+05:00',
-    author: 'Ali Zaidi',
-    authorSlug: 'ali-zaidi',
+    author: 'Muneeb Ali Jaffari',
+    authorSlug: 'muneeb-ali-jaffari',
     readTime: '10 min read',
     tags: ['goAML', 'STR', 'CTR', 'FMU Pakistan', 'AML', 'Compliance Engineering'],
     related: [
@@ -425,8 +425,8 @@ export const blogPosts: BlogPost[] = [
     date: 'August 19, 2026',
     publishedISO: '2026-08-19T11:00:00+05:00',
     modifiedISO: '2026-08-19T11:00:00+05:00',
-    author: 'Shamroz Ali Zaidi',
-    authorSlug: 'shamroz-ali-zaidi',
+    author: 'Muneeb Ali Jaffari',
+    authorSlug: 'muneeb-ali-jaffari',
     readTime: '10 min read',
     tags: ['e-KYC', 'NADRA', 'CNIC', 'Identity Verification', 'Compliance', 'Fintech'],
     related: [

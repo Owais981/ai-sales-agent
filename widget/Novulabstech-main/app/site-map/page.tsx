@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 import { servicePages } from '@/content/servicePages';
+import { projects } from '@/content/projects';
 import { serviceSpokes } from '@/content/serviceSpokes';
 import { caseStudies } from '@/content/caseStudies';
 import { blogPosts } from '@/content/blogPosts';
@@ -123,6 +124,13 @@ export default function SiteMapPage() {
             <Group
               heading="Platforms"
               links={[{ href: '/solutions', label: 'NovuERP, NovuCRM, NovuPay & NovuShield' }]}
+            />
+            <Group
+              heading="Projects"
+              links={[
+                { href: '/projects', label: 'All projects' },
+                ...projects.map((p) => ({ href: `/projects/${p.slug}`, label: `${p.name} — ${p.tagline}` })),
+              ]}
             />
             <Group
               heading="Case studies"

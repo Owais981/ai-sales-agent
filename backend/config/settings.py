@@ -60,7 +60,14 @@ DEBUG = _env_bool("DEBUG", True)
 SECRET_KEY = os.environ.get("SECRET_KEY", "change-me-in-production")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.environ.get("ACCESS_TOKEN_EXPIRE_MINUTES", 60 * 12))
 ALGORITHM = os.environ.get("ALGORITHM", "HS256")
-CORS_ORIGINS = [o.strip() for o in os.environ.get("CORS_ORIGINS", "http://localhost:5173").split(",") if o.strip()]
+CORS_ORIGINS = [
+    o.strip()
+    for o in os.environ.get(
+        "CORS_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3001,http://127.0.0.1:3001",
+    ).split(",")
+    if o.strip()
+]
 
 # Comma-separated in production (e.g. "example.com,www.example.com"); "*" (the
 # default, fine for local dev) is deliberately rejected once DEBUG is off -

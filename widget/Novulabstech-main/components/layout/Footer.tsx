@@ -159,6 +159,7 @@ const Footer: React.FC = () => {
               <div className="ft-head">Company</div>
               <ul className="ft-links">
                 <li><Link href="/about"><i className="bi bi-chevron-right"></i>About NovuLabs</Link></li>
+                <li><Link href="/projects"><i className="bi bi-chevron-right"></i>Our Projects</Link></li>
                 <li><Link href="/portfolio"><i className="bi bi-chevron-right"></i>Case Studies</Link></li>
                 <li><Link href="/industries"><i className="bi bi-chevron-right"></i>Industries</Link></li>
                 <li><Link href="/solutions"><i className="bi bi-chevron-right"></i>Solutions</Link></li>

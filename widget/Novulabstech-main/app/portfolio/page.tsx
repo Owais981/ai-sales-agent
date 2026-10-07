@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import JsonLd from '@/components/seo/JsonLd';
+import { projects } from '@/content/projects';
 import { caseStudies } from '@/content/caseStudies';
 import { webPageSchema } from '@/lib/schema';
 import { canonical } from '@/lib/seo';
 import PortfolioHero from '@/components/sections/portfolio/PortfolioHero';
+import FeaturedProjectsSection from '@/components/sections/portfolio/FeaturedProjectsSection';
 import PortfolioGridSection from '@/components/sections/portfolio/PortfolioGridSection';
 import PortfolioCta from '@/components/sections/portfolio/PortfolioCta';
 import PageFaq from '@/components/sections/shared/PageFaq';
@@ -69,6 +71,7 @@ export default function PortfolioPage() {
       />
       <PortfolioHero />
       <div className="divider"></div>
+      <FeaturedProjectsSection projects={projects} />
       <PortfolioGridSection />
       <PortfolioCta />
       <PageFaq items={portfolioFaqs} path="/portfolio" />

@@ -207,7 +207,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script
           src="/novulabs-chat-widget.js"
           strategy="lazyOnload"
-          data-api-url={process.env.NEXT_PUBLIC_CHAT_API_URL || 'http://localhost:8000'}
+          data-api-url={process.env.NEXT_PUBLIC_CHAT_API_URL || 'http://127.0.0.1:8765'}
           data-position="right"
           data-title="Chat with NovuLabs"
           data-primary-color="#00488D"

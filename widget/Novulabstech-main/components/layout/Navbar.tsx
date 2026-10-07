@@ -224,6 +224,9 @@ const Navbar: React.FC = () => {
               <Link className={`nav-link ${checkActive('/industries') ? 'active' : ''}`} href="/industries">Industries</Link>
             </li>
             <li className="nav-item">
+              <Link className={`nav-link ${checkActive('/projects') ? 'active' : ''}`} href="/projects">Projects</Link>
+            </li>
+            <li className="nav-item">
               <Link className={`nav-link ${checkActive('/portfolio') ? 'active' : ''}`} href="/portfolio">Case Studies</Link>
             </li>
             <li className="nav-item">
