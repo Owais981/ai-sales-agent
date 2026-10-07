@@ -16,7 +16,7 @@ frontend/dist/
 frontend/dist-ssr/
 *.local
 
-# ---- Claude Code / AI assistant artifacts (never pushed) ----
+# ---- Local tooling artifacts (never pushed) ----
 .claude/
 **/.claude/
 CLAUDE.md
